@@ -6,9 +6,9 @@
 
 [//]: # '<img width="160" src="https://avatars.githubusercontent.com/u/17870709?v=4">'
 
-<h1>ims-template</h1>
+<h1>ims-view-low-code</h1>
 
-一个开发 npm 项目的模板
+一个 ims-view-pc 的低代码平台
 
 node 版本 v18.13.0
 
@@ -29,7 +29,7 @@ node 版本 v18.13.0
 <!-- gitpod url -->
 
 [gitpod-badge]: https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod
-[gitpod-url]: https://gitpod.io/#https://github.com/ant-design/ims-template
+[gitpod-url]: https://gitpod.io/#https://github.com/ant-design/ims-view-low-code
 
 <!-- umi url -->
 
@@ -38,24 +38,24 @@ node 版本 v18.13.0
 
 <!-- npm url -->
 
-[npm-image]: http://img.shields.io/npm/v/ims-template.svg?style=flat-square&color=deepgreen&label=latest
-[npm-url]: http://npmjs.org/package/ims-template
-[npm-size]: https://img.shields.io/bundlephobia/minzip/ims-template?color=deepgreen&label=gizpped%20size&style=flat-square
-[npm-size-url]: https://packagephobia.com/result?p=ims-template
+[npm-image]: http://img.shields.io/npm/v/ims-view-low-code.svg?style=flat-square&color=deepgreen&label=latest
+[npm-url]: http://npmjs.org/package/ims-view-low-code
+[npm-size]: https://img.shields.io/bundlephobia/minzip/ims-view-low-code?color=deepgreen&label=gizpped%20size&style=flat-square
+[npm-size-url]: https://packagephobia.com/result?p=ims-view-low-code
 
 <!-- coverage -->
 
-[coverage]: https://codecov.io/gh/eternallycyf/ims-template/branch/master/graph/badge.svg
-[codecov-url]: https://codecov.io/gh/eternallycyf/ims-template/branch/master
+[coverage]: https://codecov.io/gh/eternallycyf/ims-view-low-code/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/eternallycyf/ims-view-low-code/branch/master
 
 <!-- Github CI -->
 
-[test-ci]: https://github.com/eternallycyf/ims-template/workflows/Test%20CI/badge.svg
-[release-ci]: https://github.com/eternallycyf/ims-template/workflows/Release%20CI/badge.svg
-[test-ci-url]: https://github.com/eternallycyf/ims-template/actions?query=workflow%3ATest%20CI
-[release-ci-url]: https://github.com/eternallycyf/ims-template/actions?query=workflow%3ARelease%20CI
-[download-image]: https://img.shields.io/npm/dm/ims-template.svg?style=flat-square
-[download-url]: https://npmjs.org/package/ims-template
+[test-ci]: https://github.com/eternallycyf/ims-view-low-code/workflows/Test%20CI/badge.svg
+[release-ci]: https://github.com/eternallycyf/ims-view-low-code/workflows/Release%20CI/badge.svg
+[test-ci-url]: https://github.com/eternallycyf/ims-view-low-code/actions?query=workflow%3ATest%20CI
+[release-ci-url]: https://github.com/eternallycyf/ims-view-low-code/actions?query=workflow%3ARelease%20CI
+[download-image]: https://img.shields.io/npm/dm/ims-view-low-code.svg?style=flat-square
+[download-url]: https://npmjs.org/package/ims-view-low-code
 
 </div>
 
@@ -75,7 +75,7 @@ node 版本 v18.13.0
 推荐使用 `pnpm` 安装
 
 ```bash
-pnpm i ims-template -S
+pnpm i ims-view-low-code -S
 ```
 
 ### 使用
@@ -117,20 +117,20 @@ This project is [MIT](./LICENSE) licensed.
 
 <!-- contributors -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/eternallycyf/ims-template.svg?style=flat
-[contributors-url]: https://github.com/eternallycyf/ims-template/graphs/contributors
+[contributors-shield]: https://img.shields.io/github/contributors/eternallycyf/ims-view-low-code.svg?style=flat
+[contributors-url]: https://github.com/eternallycyf/ims-view-low-code/graphs/contributors
 
 <!-- forks -->
 
-[forks-shield]: https://img.shields.io/github/forks/eternallycyf/ims-template.svg?style=flat
-[forks-url]: https://github.com/eternallycyf/ims-template/network/members
+[forks-shield]: https://img.shields.io/github/forks/eternallycyf/ims-view-low-code.svg?style=flat
+[forks-url]: https://github.com/eternallycyf/ims-view-low-code/network/members
 
 <!-- stargazers -->
 
-[stargazers-shield]: https://img.shields.io/github/stars/eternallycyf/ims-template.svg?style=flat
-[stargazers-url]: https://github.com/eternallycyf/ims-template/stargazers
+[stargazers-shield]: https://img.shields.io/github/stars/eternallycyf/ims-view-low-code.svg?style=flat
+[stargazers-url]: https://github.com/eternallycyf/ims-view-low-code/stargazers
 
 <!-- issues -->
 
-[issues-shield]: https://img.shields.io/github/issues/eternallycyf/ims-template.svg?style=flat
-[issues-url]: https://github.com/eternallycyf/ims-template/issues/new/choose
+[issues-shield]: https://img.shields.io/github/issues/eternallycyf/ims-view-low-code.svg?style=flat
+[issues-url]: https://github.com/eternallycyf/ims-view-low-code/issues/new/choose

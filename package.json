@@ -1,18 +1,18 @@
 {
-  "name": "ims-template",
-  "version": "1.7.2",
+  "name": "ims-view-low-code",
+  "version": "0.0.0",
   "description": "a online docs and npm package template",
   "keywords": [
     "npm",
     "template"
   ],
-  "homepage": "https://github.com/eternallycyf/ims-template",
+  "homepage": "https://github.com/eternallycyf/ims-view-low-code",
   "bugs": {
-    "url": "https://github.com/eternallycyf/ims-template/issues/new"
+    "url": "https://github.com/eternallycyf/ims-view-low-code/issues/new"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eternallycyf/ims-template.git"
+    "url": "https://github.com/eternallycyf/ims-view-low-code.git"
   },
   "license": "MIT",
   "author": "eternallycyf(969475322@qq.com)",
@@ -78,8 +78,8 @@
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@umijs/lint": "^4",
-    "@vitest/coverage-v8": "latest",
-    "antd": "^5.9.4",
+    "@vitest/coverage-v8": "^1.x",
+    "antd": "latest",
     "babel-plugin-add-module-exports": "^1",
     "babel-plugin-antd-style": "^1.0.4",
     "commitlint": "^17",
@@ -105,7 +105,7 @@
     "semantic-release-config-gitmoji": "^1",
     "stylelint": "^15",
     "typescript": "^5",
-    "vitest": "latest"
+    "vitest": "^1.x"
   },
   "peerDependencies": {
     "@ant-design/icons": "^5.2.6",

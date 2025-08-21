@@ -47,10 +47,10 @@ const themeConfig: SiteThemeConfig = {
   },
   socialLinks: { github: homepage },
   apiHeader: {
-    sourceUrl: `https://github.com/eternallycyf/ims-template/tree/master/src/components/{atomId}/index.tsx`,
-    docUrl: `https://github.com/eternallycyf/ims-template/tree/master/src/components/{atomId}/index.md`,
-    pkg: 'ims-template',
-    match: ['/ims-template/src/component'],
+    sourceUrl: `https://github.com/eternallycyf/ims-view-low-codetree/master/src/components/{atomId}/index.tsx`,
+    docUrl: `https://github.com/eternallycyf/ims-view-low-code/tree/master/src/components/{atomId}/index.md`,
+    pkg: 'ims-view-low-code',
+    match: ['/ims-view-low-code/src/component'],
   },
   footerConfig: {
     bottom: '2023',
