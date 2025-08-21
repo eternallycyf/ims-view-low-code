@@ -2,7 +2,6 @@ import { defineConfig } from 'dumi';
 import type { SiteThemeConfig } from 'dumi-theme-antd-style';
 import { footer } from 'ims-template-config';
 import path from 'path';
-import { featuresZh } from './config/features';
 import style from './docs/siteIndexStyle';
 import { homepage, name as repo } from './package.json';
 
@@ -28,7 +27,6 @@ const themeConfig: SiteThemeConfig = {
           openExternal: true,
         },
       ],
-      features: featuresZh,
     },
     'en-US': {
       description: 'dumi2 theme similar to antd v5 website',
