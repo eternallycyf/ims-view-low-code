@@ -1,5 +1,3 @@
-import { Hello } from 'ims-view-low-code';
+import {} from 'ims-view-low-code';
 
-test('hello', () => {
-  expect(Hello()).toBe('word');
-});
+test('LowcodeEditor', () => {});

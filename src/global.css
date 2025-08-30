@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+.monaco-editor .suggestions-widget {
+  z-index: 10000;
+}
+
+.layoutkit-flexbox img {
+  max-width: 40px !important;
+  height: revert-layer !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: revert !important;
+}

@@ -1,6 +1,6 @@
 ---
-title: Hello
-description: Hello
+title: LowcodeEditor
+description: LowcodeEditor
 toc: content
 group:
   title: 分组
@@ -9,6 +9,6 @@ demo:
   cols: 2
 ---
 
-## Hello
+## LowcodeEditor
 
 <code src='./demo/index.tsx'></code>

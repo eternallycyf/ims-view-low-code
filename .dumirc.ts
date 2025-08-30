@@ -91,6 +91,7 @@ export default defineConfig({
   mfsu: {
     runtimePublicPath: true,
   },
+  plugins: ['@umijs/plugins/dist/tailwindcss'],
   resolve: {
     docDirs: ['docs'],
     atomDirs: [{ type: 'component', dir: './src/components' }],

@@ -1,1 +1,2 @@
-export { default as Hello } from './components/Hello';
+import './output.css';
+export { default as LowcodeEditor } from './components/LowcodeEditor';
