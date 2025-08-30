@@ -1,5 +1,32 @@
 # Changelog
 
+## [Version&nbsp;1.2.0](https://github.com/eternallycyf/ims-view-low-code/compare/v1.1.0...v1.2.0)
+
+<sup>Released on **2025-08-30**</sup>
+
+#### ✨ 新特性
+
+- Add Button Container Page and drag hook.
+
+#### 📝 文档
+
+- Update docs.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- Add Button Container Page and drag hook ([b92236d](https://github.com/eternallycyf/ims-view-low-code/commit/b92236d))
+
+#### Documentation
+
+- Update docs ([c4f06fc](https://github.com/eternallycyf/ims-view-low-code/commit/c4f06fc))
+
+</details>
+
 ## [Version&nbsp;1.1.0](https://github.com/eternallycyf/ims-view-low-code/compare/v1.0.0...v1.1.0)
 
 <sup>Released on **2025-08-30**</sup>
