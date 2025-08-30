@@ -1,6 +1,6 @@
 {
   "name": "ims-view-low-code",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a online docs and npm package template",
   "keywords": [
     "npm",
@@ -36,8 +36,6 @@
     "ci": "npm run lint && npm run type-check && npm run doctor && npm run build",
     "clean": "rm -rf es lib dist coverage .dumi/tmp .eslintcache",
     "dev": "npm run tailwind:watch && dumi dev",
-    "tailwind": "npx @tailwindcss/cli -i ./src/global.css -o ./src/output.css",
-    "tailwind:watch": "npx @tailwindcss/cli -i ./src/global.css -o ./src/output.css --watch",
     "docs:build": "npm run tailwind && dumi build",
     "docs:preview": "yarn docs:build && cd dist && npx serve",
     "doctor": "father doctor",
@@ -49,6 +47,8 @@
     "semantic-release": "semantic-release",
     "setup": "dumi setup",
     "start": "dumi dev",
+    "tailwind": "npx @tailwindcss/cli -i ./src/global.css -o ./src/output.css",
+    "tailwind:watch": "npx @tailwindcss/cli -i ./src/global.css -o ./src/output.css --watch",
     "test": "vitest --passWithNoTests",
     "test:coverage": "vitest run --coverage --passWithNoTests",
     "test:update": "vitest -u",
