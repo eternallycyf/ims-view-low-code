@@ -8,7 +8,7 @@
 
 <h1>ims-view-low-code</h1>
 
-一个 ims-view-pc 的低代码平台
+一个关于 ims-view 的低代码平台
 
 node 版本 v18.13.0
 
@@ -71,7 +71,7 @@ pnpm i ims-view-low-code -S
 
 ### 使用
 
-基于该仓库模板可以快速创建一个 npm 包的工程化脚手架。
+基于该仓库可快速创建 符合 ims-view-pc 风格的低代码代码
 
 详情：[CHANGELOG](./CHANGELOG.md)
 

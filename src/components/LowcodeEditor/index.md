@@ -3,7 +3,7 @@ title: LowcodeEditor
 description: LowcodeEditor
 toc: content
 group:
-  title: 分组
+  title: 核心组件
   order: 0
 demo:
   cols: 2
