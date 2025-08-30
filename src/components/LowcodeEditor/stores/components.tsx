@@ -20,6 +20,7 @@ interface State {
 }
 
 interface Action {
+  clearComponents: () => void;
   addComponent: (component: Component, parentId?: number) => void;
   deleteComponent: (componentId: number) => void;
   updateComponentProps: (componentId: number, props: any) => void;
@@ -102,11 +103,24 @@ const creator: StateCreator<State & Action> = (set, get) => ({
 
       return { components: [...state.components] };
     }),
+  clearComponents: () =>
+    set(() => {
+      return {
+        components: [
+          {
+            id: 1,
+            name: 'Page',
+            props: {},
+            desc: '页面',
+          },
+        ],
+      };
+    }),
 });
 
 export const useComponetsStore = create<State & Action>()(
   persist(creator, {
-    name: 'xxx',
+    name: 'ims-view-low-code',
   }),
 );
 

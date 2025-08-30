@@ -1,8 +1,11 @@
-import React, { FC, useEffect, useRef, useState } from 'react';
+import { useComponetsStore } from '../../stores/components';
 
-interface SettingProps {}
-const Setting: FC<SettingProps> = (props) => {
-  const {} = props;
-  return <div>Setting</div>;
-};
-export default Setting;
+export function Setting() {
+  const { components } = useComponetsStore();
+
+  return (
+    <div>
+      <pre>{JSON.stringify(components, null, 2)}</pre>
+    </div>
+  );
+}
